@@ -582,7 +582,7 @@ a:focus, a:active {
   padding: 10px 15px;
   margin: 15px 3px;
   line-height: 20px;
-  text-align: center;
+  text-align: right;
 }
 .footer hr {
   border-color: #dddddd;
@@ -1528,6 +1528,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
 
 .product > img {
   height: 230px;
+}
+
+.address > img {
+  padding-top: 3rem;
+  height: 15rem;
 }
 
 @media (max-width:768px){
