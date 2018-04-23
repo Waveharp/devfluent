@@ -17,7 +17,7 @@
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, .btn-simple, a, .td-name, td {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  font-family: "Helvetica Neue","Open Sans",Arial,sans-serif;
+  font-family: "Lato","Open Sans",Arial,sans-serif;
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
@@ -1526,6 +1526,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
     right: -9px;
 }
 
+/***** Custom CSS *****/
+
 .product > img {
   height: 230px;
 }
@@ -1534,6 +1536,51 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
   padding-top: 3rem;
   height: 15rem;
 }
+
+#about {
+  color: black;
+}
+
+/* Fonts */
+
+.font-weight-lightest {
+  font-weight: 100 !important;
+}
+
+.font-weight-light {
+  font-weight: 300 !important;
+}
+
+.font-weight-normal {
+  font-weight: 400 !important;
+}
+
+.font-weight-bold {
+  font-weight: 700 !important;
+}
+
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+/* Lists */
+
+/*li span {
+  position: relative;
+  left: -10px;
+}*/
+
+/* Columns */
+
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
+
+
+
+/***** Media Queries *****/
 
 @media (max-width:768px){
     .fixed-plugin{
