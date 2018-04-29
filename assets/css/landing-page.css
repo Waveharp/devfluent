@@ -1587,6 +1587,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
     max-width: 100%;
 }*/
 
+.device {
+  margin-bottom: 30px;
+}
+
+.temp-sense {
+  margin-bottom: 15px;
+}
+
 .product > img {
   height: 230px;
   width: 230px;
